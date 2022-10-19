@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="index.js" defer></script>
+    <title>Password Generator</title>
+</head>
+<body>
+
+    <section class="h-100vh bg-dark d-flex align-items-center p-0">
+        <div class="pl-3 pr-3 pt-1 pb-2 col-5 m-auto rounded shadow bg-darker text-gray ">
+            <header class="mb-2">
+                <h1 class="text-white mb-1">
+                    Generate a  <br>
+                    <span class="text-cian">random Password</span>
+                </h1>    
+                <p>Never use an insecure password again.</p>
+                <hr>
+            </header>
+            <div>
+                <h4>
+                    Set the length of the password <br>
+                    <small class="text-cian">( the password must be at least 5 characters long )</small>
+                </h4>
+                <input id="pass-length" class="input-number rounded bg-gray-light d-block" type="number" value="5">
+                <input id="generate" type="button" class="rounded  text-btn bg-cian text-gray pointer" value="Generate Passwords">
+                <hr>
+            </div>
+            <footer class="pt-1">
+                <h5 class="mb-1">Your Password:</h5>
+                <p id="result" class="password rounded mb-2"></p>
+
+                <h5 class="text-orange text-center m-0"> 
+                    Gabriel Jiménez  <br> 
+                    18 08 2022
+                </h5>
+            </footer>
+        </div>
+    </section>
+
+</body>
+</html>
